@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url("https://fonts.googleapis.com/earlyaccess/kokoro.css");
 @import url("https://fonts.googleapis.com/earlyaccess/nicomoji.css");
+@import url("https://fonts.googleapis.com/earlyaccess/nikukyu.css");
 
 * {
     box-sizing: border-box;
@@ -14,6 +15,10 @@
 
 .wf-nicomoji { 
     font-family: "Nico Moji"; 
+}
+
+.wf-nikukyu { 
+    font-family: "Nikukyu"; 
 }
 
 html, body {
