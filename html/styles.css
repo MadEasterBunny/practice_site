@@ -159,6 +159,7 @@ html, body {
     padding: 0;
     width: 100px;
     height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .tour-row {
