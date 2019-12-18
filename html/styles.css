@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url("https://fonts.googleapis.com/earlyaccess/kokoro.css");
 @import url("https://fonts.googleapis.com/earlyaccess/nicomoji.css");
+@import url("https://fonts.googleapis.com/earlyaccess/nikukyu.css");
 
 * {
     box-sizing: border-box;
@@ -14,6 +15,10 @@
 
 .wf-nicomoji { 
     font-family: "Nico Moji"; 
+}
+
+.wf-nikukyu { 
+    font-family: "Nikukyu"; 
 }
 
 html, body {
@@ -79,6 +84,7 @@ html, body {
 .container {
     max-width: 900px;
     margin: 0 auto;
+    margin-top: 1em;
     padding: 0 1.5em;
 }
 
@@ -119,4 +125,83 @@ html, body {
 .footer-nav img {
     width: 50px;
     height: 70px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #d168f6;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #d168f6;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #d168f6;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #b83ee3;
 }
